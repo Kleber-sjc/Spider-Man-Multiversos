@@ -2,7 +2,7 @@ a.link-button{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 a.link-button .icon{
@@ -10,7 +10,7 @@ a.link-button .icon{
   height: 32px;
   padding: 3px;
   background-color: var(--primary-color);
-  border: solid 1px white;
+  border: solid 1px rgb(255, 255, 255);
   background-clip: content-box;
   border-radius: 50%;
   position: relative;
@@ -20,7 +20,7 @@ a.link-button .icon{
 }
 
 a.link-button .icon .play-icon{
-  border:solid 7px white;
+  border:solid 7px rgb(249, 249, 249);
   width:0;
   height: 0;
   border-top-color: transparent;

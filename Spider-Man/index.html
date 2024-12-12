@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/home-page-styles.css">
+  <link rel="shortcut icon" href="./assets/images/icons/Favicon-Spider.png" type="image/x-icon">
   <script src="./assets/scripts/script.js"></script>
+
   <title>Spider-Man | Multiversos</title>
+
 </head>
 <body>
   <nav class="s-menu">
@@ -60,5 +63,16 @@
     </div>
     <div class="s-controller__line"></div>
   </div>
+
+  <audio id="audio-player" autoplay loop preload="auto">
+    <source src="./assets/audio/audio-saga-heroes-of-the-word.mp3" type="audio/mp3">
+    Seu navegador não suporta a tag de áudio.
+  </audio>
+
+  <script>
+    var audio = document.getElementById('audio-player');
+    audio.volume = 0.4;  // Ajuste o volume conforme necessário
+  </script>
+  
 </body>
 </html>
